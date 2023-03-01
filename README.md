@@ -7,7 +7,7 @@ Partial Convolutions](https://arxiv.org/abs/1804.07723) using [CIFAR-10
 
 ## Tools
 1) Personal Computer (CPU)
-2) Google Colaboratory (GPU)
+2) Google Colaboratory (GPU)\
 a) Language - Python\
 b) Framework - Pytorch
 
