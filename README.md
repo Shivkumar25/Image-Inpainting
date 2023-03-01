@@ -41,6 +41,16 @@ The Natural Images dataset consists of images having the dimension of 256x256, t
 
 ![Flow Diagram](Flow_Diagram.PNG)
 
+1) First an image is inserted, this image could be from the train, test data or from the
+desktop.
+2) Then the image is transformed into a tensor and also normalized using the torchvision
+library.
+3) Binary masking is performed. Here we use only random lines of various thickness to
+mask the image.
+4) We then obtain two images, the Masked image and the mask pattern
+5) These two images are passed as arguments to the partial convolution model
+6) The output is the inpainted image
+
 ## Evaluation and Results
 
 a) **CIFAR-10**
