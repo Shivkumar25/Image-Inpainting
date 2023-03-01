@@ -57,10 +57,22 @@ a) **CIFAR-10**
 
 The model was trained for 3 hours on the prepared dataset based on CIFAR10. The learning optimization algorithm used was ADAM with a learning rate of 0.01. The model was trained for 15 epochs. Jaccard Coefficient was used as the evaluation parameter to test the accuracy of the model.
 
+![CIFAR-10 Loss Values](CIFAR_10_Loss_Values.PNG)
+
+The obtained accuracy/dice coefficient value on the training data is 75.
+
+![CIFAR-10 Test Data Results](CIFAR_10_Test_Data_Result.PNG)
+
 b) **Natural Images Kaggle Dataset**
 
 The model was trained for 6 hours on the prepared dataset based on Natural Images. The learning optimization algorithm used was ADAM with a learning rate of 0.01. The model was trained for 10 epochs. Dice Coefficient was used as the evaluation parameter to test the accuracy
 of the model.
+
+![Natural Images Loss Values](Natural_Images_Loss_Values.PNG)
+
+The obtained accuracy/dice coefficient value on the test data is 68.
+
+![Natural Images Test Data Results](Natural_Images_Test_Data_Result.PNG)
 
 ## Acknowledgements
 
