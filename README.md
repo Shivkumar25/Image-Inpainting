@@ -38,6 +38,9 @@ b) **Natural Images Kaggle Dataset**
 The Natural Images dataset consists of images having the dimension of 256x256, therefore the input images to the model will be having a tensor with dimensions of (256x256). It is a UNET - type architecture replacing all convolutional layers with partial convolutional layers and using nearest neighbour up-sampling in the decoding stage. The Architecture is similar to that used for the CIFAR10 dataset but there is an increased number of layers. ReLU is used in the encoding stage and LeakyReLU with alpha = 0.2 is used between all decoding layers. The kernel sizes used for the layers atr 7, 5 and 3. The channel sizes are 64, 128, 256, 512, 512, 512, 512. The last partial convolution layer’s input will contain the concatenation of the original input image with hole and original mask making it possible for the model to copy non-hole pixels.
 
 ## Flow Diagram
+
+![Flow Diagram](Flow_Diagram.PNG)
+
 ## Evaluation and Results
 
 a) **CIFAR-10**
